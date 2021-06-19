@@ -1,8 +1,7 @@
 import React from 'react';
-import './index.css';
 
 function Greetings(){
-  // let curTime = new Date().toLocaleTimeString();
+ 
 let curHour = new Date().getHours();
 let greetings = ' ';
 const cssStyle = { };
@@ -29,15 +28,12 @@ else if(curHour >= 19 && curHour <= 21){
 }
 else {
   greetings = 'Good Night!';
-  cssStyle.color = 'skyblue'
+  cssStyle.color = 'blue'
 }
     return(
-        <>
         <div>
           <h1> Hello Sir, <span style={cssStyle}>{greetings}</span></h1>
-          {/* <p> {curTime} </p> */}
         </div>
-        </>
     )
 }
 export default Greetings;

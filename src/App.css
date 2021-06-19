@@ -1,6 +1,13 @@
 .App {
   text-align: center;
 }
+.greetings{
+  background-color: rgb(247, 170, 170);
+  padding: 20px;
+  border-radius: 50px;
+  color: rgb(58, 58, 2);width: 600px;
+  margin: auto;
+}
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +42,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+.li{
+  background-color: #61dafb;
+  height: 1200px;
+}
+li{
+  border: solid 1px black;
+  height: 20px;
+  padding: 10px;
+  text-transform: capitalize;
 }
