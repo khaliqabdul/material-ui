@@ -32,7 +32,7 @@ else {
 }
     return(
         <div>
-          <h1> Hello Sir, <span style={cssStyle}>{greetings}</span></h1>
+          <h1> Hello Khaliq, <span style={cssStyle}>{greetings}</span></h1>
         </div>
     )
 }

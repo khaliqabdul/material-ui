@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
+
 function Time(props){
+    
     function getTime() {
         let curTime = new Date().toLocaleTimeString();
         return curTime
